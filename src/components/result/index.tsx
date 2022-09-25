@@ -26,6 +26,8 @@ const Box = styled(Row)`
         margin: 20px 0;
         justify-content: space-evenly;
         align-items: center;
+        min-width: 320px;
+        width: 100%;
 `
 const Label = styled(Column)`
 `

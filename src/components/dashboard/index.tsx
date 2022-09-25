@@ -10,10 +10,15 @@ import AddTransaction from "../addTransaction";
 const Wrapper = styled.div`
 background: #F7F7F7;
 height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 `
 const Container = styled.div`
-width: 75%;
-margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 `
 
 
